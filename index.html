@@ -44,24 +44,24 @@
         <img src="imagens/EmogiCoracao.jpg" alt="Emogi de coração" style="display: block; width: 10%;">
 
         <!--Formulário para saber quem viu o site-->
-        <form action="/pagina-processa-dados-do-form" method="post">
+        <form action="/https://formspree.io/f/xrpgddzj" method="post">
             <fieldset>
                 <legend>Dados Gerais</legend>
                 <!--Nome-->
                 <label for="nome">Nome:</label>
-                <input type="text" minlength="3" id="nome" />
+                <input type="text" minlength="3" id="nome" name="nome" />
 
                 <!--Idade-->
                 <label for="idade">Idade:</label>
-                <input type="text" minlength="1" id="idade" />
+                <input type="text" minlength="1" id="idade" name="idade" />
 
                 <!--CPF-->
                 <label for="CPF">CPF:</label>
-                <input type="CPF" minlength="11" id="CPF" />
+                <input type="CPF" minlength="11" id="CPF" name="cpf" />
 
                 <!--Mensagem-->
                 <label for="mensagem">Deseja me dizer algo?</label>
-                <input type="text" minlength="1" id="mensagem" />
+                <input type="text" minlength="1" id="mensagem" name="mensagem" />
 
                 <!--Botão de limpar e enviar o formulário-->
                 <button type="submit">Enviar</button>
@@ -113,11 +113,11 @@
         <h2>Formulário:</h2>
 
         <!--Formulário pra dizer se gostou ou não-->
-        <form action="pagina-processa-dados-do-form" method="post">
+        <form action="https://formspree.io/f/xrpgddzj" method="post">
             <fieldset>
                 <legend>Opnião</legend>
                 <label for="opniao">Você gostou do site?</label>
-                <select id="opniao">
+                <select id="opniao" name="opniao">
                     <option value="">Selecione</option>
                     <option value="">SIM</option>
                     <option value="">NÃO</option>
